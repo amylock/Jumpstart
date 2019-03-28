@@ -1,6 +1,10 @@
 $(document).ready(function(){
-  console.log("ready");
   $('.carousel').slick({
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false    
   });
 });
